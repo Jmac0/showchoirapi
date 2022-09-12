@@ -1,0 +1,18 @@
+{
+  "name": "showchoirapi",
+  "version": "1.0.0",
+  "description": "Show Choir back end",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git remote add origin https://github.com/Jmac0/showchoirapi.git"
+  },
+  "author": "Jamie",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
