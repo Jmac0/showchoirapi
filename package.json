@@ -14,5 +14,8 @@
   "license": "ISC",
   "devDependencies": {
     "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "@netlify/functions": "^1.2.0"
   }
 }
