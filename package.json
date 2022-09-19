@@ -4,8 +4,8 @@
   "description": "Show Choir back end",
   "main": "app.js",
   "scripts": {
-    "build": "tsc dist/app.js",
-    "start": " node dist/app.js"
+    "postinstall": "tsc",
+    "start": "node dist/app.js"
   },
   "repository": {
     "type": "git",
