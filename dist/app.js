@@ -5,13 +5,14 @@ const path = require('path');
 const serverless = require('serverless-http');
 const app = express();
 const bodyParser = require('body-parser');
+console.log('live');
 const router = express.Router();
 router.get('/', (req, res) => {
-    res.status(200).json({
-        message: 'Well hello',
+    res.status(201).json({
+        message: 'index 123',
     });
 });
-router.get('/another', (req, res) => res.json({ message: 'hello bertie' }));
+router.get('/hi', (req, res) => res.json({ message: 'hello there' }));
 //router.post('/', (req, res) => res.json({ postBody: req.body }));
 app.use(bodyParser.json());
 app.use('/.netlify/functions/app', router); // path must route to
