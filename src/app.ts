@@ -10,7 +10,7 @@ const bodyParser = require('body-parser');
 const router = express.Router();
 router.get('/', (req: Request, res: Response) => {
   res.status(200).json({
-                         message: 'Well fuck me',
+                         message: 'Well hello',
                        });
 });
 
