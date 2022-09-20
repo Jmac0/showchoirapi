@@ -4,7 +4,8 @@
   "description": "Show Choir back end",
   "main": "app.js",
   "scripts": {
-    "start": "./node_modules/.bin/netlify-lambda serve dist"
+    "start": "./node_modules/.bin/netlify-lambda serve dist",
+    "build": "netlify-lambda build express"
   },
   "repository": {
     "type": "git",
