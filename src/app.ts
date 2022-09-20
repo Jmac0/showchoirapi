@@ -16,7 +16,7 @@ router.get('/', (req: Request, res: Response) => {
 
 router.get(
   '/another',
-  (req: Request, res: Response) => res.json({ message: 'hello' }),
+  (req: Request, res: Response) => res.json({ message: 'hello bertie' }),
 );
 //router.post('/', (req, res) => res.json({ postBody: req.body }));
 
